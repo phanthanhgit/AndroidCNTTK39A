@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Đăng xuất"
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout"/>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_login"
+            android:title="Đăng nhập" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_post"
+            android:title="Bài viết chia sẻ" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@mipmap/ic_question"
+            android:title="Câu hỏi" />
+        <item
+            android:id="@+id/nav_tags"
+            android:icon="@mipmap/tc_tags"
+            android:title="Thẻ"/>
+    </group>
+</menu>
